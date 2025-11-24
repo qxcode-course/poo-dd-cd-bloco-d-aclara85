@@ -1,0 +1,29 @@
+version: '0.2'
+sources:
+- database: local
+  link: ''
+  type: local
+  branch: master
+  cache_path: ''
+  cache_timestamp: ''
+  filters: null
+- database: poo
+  link: https://github.com/qxcodepoo/arcade.git
+  type: clone
+  branch: master
+  cache_path: ''
+  cache_timestamp: '2025-11-24 18:19:49'
+  filters:
+  - crud
+expanded:
+- poo@campanha-principal
+- poo@bloco_d-crud-com-mapas-e-enumerações
+tasks: {}
+flags:
+  quests: 0
+  tracks: 0
+  tasks: 0
+  graph: 0
+  xray: 0
+lang: py
+selected: poo@agenda
